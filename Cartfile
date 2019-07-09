@@ -1,0 +1,4 @@
+github "Sage-Bionetworks/Bridge-iOS-SDK" "master"
+github "dephillipsmichael/BridgeApp-Apple-SDK" "pku"
+github "dephillipsmichael/MotorControl-iOS" "pku"
+github "dephillipsmichael/SageResearch" "pku"
