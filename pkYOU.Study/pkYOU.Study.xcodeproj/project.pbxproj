@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		44BBCB2C22D7A1AA004801BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BBCB2B22D7A1AA004801BC /* AppDelegate.swift */; };
-		44BBCB2E22D7A1AA004801BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BBCB2D22D7A1AA004801BC /* ViewController.swift */; };
 		44BBCB3122D7A1AA004801BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44BBCB2F22D7A1AA004801BC /* Main.storyboard */; };
 		44BBCB3322D7A1AC004801BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44BBCB3222D7A1AC004801BC /* Assets.xcassets */; };
 		44BBCB3622D7A1AC004801BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44BBCB3422D7A1AC004801BC /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		44BBCB2822D7A1AA004801BC /* pkYOU.Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pkYOU.Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44BBCB2B22D7A1AA004801BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44BBCB2D22D7A1AA004801BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44BBCB3022D7A1AA004801BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44BBCB3222D7A1AC004801BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44BBCB3522D7A1AC004801BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				44BBCB2B22D7A1AA004801BC /* AppDelegate.swift */,
-				44BBCB2D22D7A1AA004801BC /* ViewController.swift */,
 				44BBCB2F22D7A1AA004801BC /* Main.storyboard */,
 				44BBCB3222D7A1AC004801BC /* Assets.xcassets */,
 				44BBCB3422D7A1AC004801BC /* LaunchScreen.storyboard */,
@@ -256,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44BBCB2E22D7A1AA004801BC /* ViewController.swift in Sources */,
 				44BBCB2C22D7A1AA004801BC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,7 +438,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.sageBionetworks.pkYOU-Study";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -460,7 +456,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.sageBionetworks.pkYOU-Study";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
